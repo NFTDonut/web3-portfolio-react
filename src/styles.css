@@ -71,7 +71,6 @@ button {
     z-index: 1;
     width: 100%;
     top: 0;
-    transition: var(--transition-delay);
 }
 
 .site-title {
@@ -84,7 +83,11 @@ button {
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 0rem;
+}
+
+.nav li {
+    cursor: pointer;
 }
 
 .nav a {
@@ -93,15 +96,25 @@ button {
     height: 100%;
     display: flex;
     align-items: center;
-    padding: .25rem;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    transition: 0.4s ease-in;
+    
 }
 
-.nav li.active {
+.nav a.active {
     background-color: #3700B3;
+    color: white;
 }
+
+
+/* .nav li.active {
+    background-color: #3700B3;
+} */
 
 .nav li:hover {
     background-color: #3700B3;
+    color: white;
 }
 
 svg {

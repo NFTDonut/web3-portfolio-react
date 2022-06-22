@@ -1,26 +1,26 @@
 import { Link } from 'react-scroll';
+import { useState } from 'react';
 
 export default function Navbar({toggleTheme}) {
 
     return (
-        
             <nav className="nav">
-                <Link className='site-title' activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={500}>
+                <Link className='site-title' activeClass="inactive" to="about" spy={true} smooth={true} offset={-60} duration={300}>
                     DONUT
                 </Link>
                 <ul>
                     <li>
-                        <Link activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={500}>
+                        <Link activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={300}>
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-60} duration={500}>
+                        <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-60} duration={300}>
                             Skills
                         </Link>
                     </li>
                     <li>
-                        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-60} duration={500}>
+                        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-60} duration={300}>
                             Projects
                         </Link>
                     </li>
