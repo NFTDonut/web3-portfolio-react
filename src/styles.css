@@ -33,17 +33,20 @@ button {
     z-index: 3;
 }
 
-.theme-toggle-button {
-    background-color: transparent;
-    color: var(--background-color);
-
+.theme-toggle-div {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    width: 100px;
+}
+
+.theme-toggle-button {
+    color: white;
+    background-color: transparent;
     border-radius: 50%;
+    border: none;
     width: 50px;
     height: 50px;
-    border: none;
+    padding-top: 10px;
     cursor: pointer;
     transition: 0.25s;
     transform: scale(1);
@@ -51,7 +54,7 @@ button {
 
 .theme-toggle-button:hover,
 .theme-toggle-button:focus {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .nav {

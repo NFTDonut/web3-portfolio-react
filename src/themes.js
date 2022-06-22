@@ -4,14 +4,16 @@ export const lightTheme = {
     body: '#fff',
     fontColor: '#000',
     navColor: '#6200EE',
-    navFontColor: '#fff'
+    navFontColor: '#fff',
+    toggleButtonText: '#fff'
 };
 
 export const darkTheme = {
     body: '#121212',
     fontColor: '#fff',
     navColor: '#BB86FC',
-    navFontColor: '#000'
+    navFontColor: '#000',
+    toggleButtonText: '#000'
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -23,5 +25,9 @@ export const GlobalStyles = createGlobalStyle`
     .nav {
         background-color: ${props => props.theme.navColor};
         color: ${props => props.theme.navFontColor};
+    }
+
+    .theme-toggle-button {
+        color: ${props => props.theme.toggleButtonText};
     }
 `

@@ -22,8 +22,7 @@ function App() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-        <button onClick={() => toggleTheme()}>TOGGLE</button>
-        <Navbar />
+        <Navbar toggleTheme={toggleTheme}/>
         <About />
         <Skills />
         <Projects />
