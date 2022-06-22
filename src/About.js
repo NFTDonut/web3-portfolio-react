@@ -1,11 +1,11 @@
-export default function About(props) {
+export default function About() {
     return (
         <div className="container" id="about">
-            <div className="container-title">
-                <h1>ABOUT!</h1>
+            <div className="container-title-left">
+                <h2 data-aos="fade-left">ABOUT</h2>
             </div>
             <div className="container-content">
-                <p>A</p>
+                <p data-aos="fade-right">A</p>
             </div>
         </div>
 

@@ -5,8 +5,8 @@ export default function Navbar({toggleTheme}) {
 
     return (
             <nav className="nav">
-                <Link className='site-title' activeClass="inactive" to="about" spy={true} smooth={true} offset={-60} duration={300}>
-                    DONUT
+                <Link activeClass="inactive" to="about" spy={true} smooth={true} offset={-60} duration={300} style={{ padding: 0 }}>
+                    <p className='site-title'>DONUT</p>
                 </Link>
                 <ul>
                     <li>
