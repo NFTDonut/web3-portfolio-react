@@ -8,18 +8,22 @@ export const lightTheme = {
     navFontColor: '#fff',
     toggleButtonText: '#fff',
     cardColor: '#fff',
-    cardShadow: '-3px -3px 3px rgba(250, 250, 250, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.1)'
+    cardShadow: '-3px -3px 3px rgba(250, 250, 250, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.1)',
+    solidityImgFilter: 'invert(0%)',
+    ethersImgFilter: 'saturate(1) brightness(1)'
 };
 
 export const darkTheme = {
     body: '#121212',
     fontColor: '#fff',
     navColor: '#BB86FC',
-    navBg: 'linear-gradient(180deg, #B39DDB, #9575CD)',
+    navBg: 'linear-gradient(180deg, #b894f6, #9a66f4)',
     navFontColor: '#000',
     toggleButtonText: '#000',
     cardColor: 'rgba(255, 255, 255, 0.05)',
-    cardShadow: '-3px -3px 3px rgba(255, 255, 255, 0.02), 3px 3px 5px rgba(0, 0, 0, 0.5)'
+    cardShadow: '-3px -3px 3px rgba(255, 255, 255, 0.02), 3px 3px 5px rgba(0, 0, 0, 0.5)',
+    solidityImgFilter: 'invert(100%)',
+    ethersImgFilter: 'saturate(0.8) brightness(1.8)'
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -37,13 +41,19 @@ export const GlobalStyles = createGlobalStyle`
         color: ${props => props.theme.toggleButtonText};
     }
 
-    .skill-card {
-        background-color: ${props => props.theme.cardColor};
-        box-shadow: ${props => props.theme.cardShadow};
-    }
-
+    .about-card,
+    .skill-card,
     .project-card {
         background-color: ${props => props.theme.cardColor};
         box-shadow: ${props => props.theme.cardShadow};
     }
+
+    .solidity-img {
+        filter: ${props => props.theme.solidityImgFilter};
+    }
+
+    .ethers-js-img {
+        filter: ${props => props.theme.ethersImgFilter};
+    }
+
 `

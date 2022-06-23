@@ -6,6 +6,22 @@ export default function Projects() {
             </div>
             <div className="container-content">
                 <div className="project-card" data-aos="fade-right">
+                    <h3>Web3 Dashboard</h3>
+                    <button className="gradient-button">
+                        <h4>CLICK</h4>
+                    </button>
+                </div>
+                <div className="project-card" data-aos="fade-right">
+                    <h3>Buy Me a Donut</h3>
+                    <button className="gradient-button">
+                        <h4>CLICK</h4>
+                    </button>
+                </div>
+                <div className="project-card" data-aos="fade-right">
+                    <h3>NFT Minting Bot</h3>
+                    <button className="gradient-button">
+                        <h4>CLICK</h4>
+                    </button>
                 </div>
             </div>
         </div>

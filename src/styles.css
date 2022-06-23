@@ -28,15 +28,61 @@ body.dark {
     --text-color: white;
 }
 
-/* button {
-    position: fixed;
-    width: 500px;
-    z-index: 3;
-} */
+.gradient-button {
+    
+    background: linear-gradient(135deg, #ee008b, #ee6300);
+    position: relative;
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+    margin-bottom: 40px;
+}
+
+.gradient-button:hover {
+    transform: scale(1.05);
+}
+
+.gradient-button::before {
+    
+    background: linear-gradient(135deg, #ee008b, #ee6300);
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    transform: translate(4px, 8px) scale(0.8);
+}
 
 h2 {
     margin: 0px;
     padding: 0px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 30px 0px 10px 0px;
+    padding: 0px;
+}
+
+h4 {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+p2 {
+    padding: 0px 40px 40px 40px;
 }
 
 .theme-toggle-div {
@@ -162,70 +208,72 @@ svg {
 }
 
 .about-card {
-    position: relative;
-    border-radius: 30px;
-    width: 300px;
-    height: 200px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.25s;
-}
-
-.about-card::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(25px);
-    transform: translate(0px, 10px) scale(0.9);
-}
-
-.about-card:hover {
-    transform: scale(1.03);
-}
-
-.about-card:nth-child(1),
-.about-card:nth-child(1)::before {
-    background: linear-gradient(135deg, #6200EE, #3700B3);
-}
-
-.about-card:nth-child(2),
-.about-card:nth-child(2)::before {
-    background: linear-gradient(135deg, #24ff72, #2196f3);
-}
-
-.about-card h3 {
-    position: relative;
-    z-index: 1;
-    font-size: 3em;
-}
-
-.skill-card {
-    background-color: rgba(0, 0, 0, 0.05);
     border-radius: 20px;
-    box-shadow: 1px 2px 4px #000;
     width: 40%;
     min-width: 340px;
     min-height: 100px;
     margin: auto;
     margin: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .about-card h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 3em;
+} */
+
+.skill-card {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px #000;
+    min-height: 500px;
+    width: 20%;
+    min-width: 340px;
+    min-height: 400px;
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .project-card {
     border-radius: 20px;
-    width: 40%;
+    width: 20%;
     min-width: 340px;
-    min-height: 100px;
+    min-height: 400px;
     margin: auto;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-img {
+    border-radius: 20px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+
+.ethers-js-img {
+    border-radius: 20px;
+    height: 200px;
+    padding: 20px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.solidity-img {
+    border-radius: 20px;
+    height: 200px;
+    padding: 20px;
+    transition: 1s;
+    margin-bottom: 30px;
 }
