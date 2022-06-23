@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import './styles.css';
 import Navbar from './Navbar';
 import About from './About';
@@ -17,11 +17,18 @@ function App() {
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
+    localStorage.setItem('theme', theme);
     theme === 'light' ? setTheme("dark") : setTheme("light");
   }
 
+  useLayoutEffect(() => {
+    if (localStorage.getItem('theme') === 'light') {
+      setTheme("dark");
+    }
+  })
+
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 300 });
   }, []);
 
   return (
@@ -29,9 +36,9 @@ function App() {
       <GlobalStyles />
       <StyledApp>
         <Navbar toggleTheme={toggleTheme}/>
-        <About useEffect={useEffect}/>
+        <About />
         <Skills useEffect={useEffect}/>
-        <Projects />
+        <Projects useEffect={useEffect}/>
       </StyledApp>
     </ThemeProvider>
   );
