@@ -65,7 +65,6 @@ h2 {
 }
 
 .nav {
-    background-color: var(--primary);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -73,7 +72,7 @@ h2 {
     align-items: stretch;
     height: 60px;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     width: 100%;
     top: 0;
     left: 0;
@@ -136,7 +135,7 @@ svg {
 } */
 
 .container {
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
     margin-top: 60px;
 }
 
@@ -154,5 +153,79 @@ svg {
 }
 
 .container-content {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.about-card {
+    position: relative;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.25s;
+}
+
+.about-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(25px);
+    transform: translate(0px, 10px) scale(0.9);
+}
+
+.about-card:hover {
+    transform: scale(1.03);
+}
+
+.about-card:nth-child(1),
+.about-card:nth-child(1)::before {
+    background: linear-gradient(135deg, #6200EE, #3700B3);
+}
+
+.about-card:nth-child(2),
+.about-card:nth-child(2)::before {
+    background: linear-gradient(135deg, #24ff72, #2196f3);
+}
+
+.about-card h3 {
+    position: relative;
+    z-index: 1;
+    font-size: 3em;
+}
+
+.skill-card {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px #000;
+    width: 40%;
+    min-width: 340px;
+    min-height: 100px;
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-card {
+    border-radius: 20px;
+    width: 40%;
+    min-width: 340px;
+    min-height: 100px;
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

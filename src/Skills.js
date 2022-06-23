@@ -5,7 +5,12 @@ export default function Skills() {
                 <h2 data-aos="fade-right">SKILLS</h2>
             </div>
             <div className="container-content">
-                <p data-aos="fade-left">Web3 Developer</p>
+                <div className="skill-card" data-aos="fade-left">
+                    <h3>Languages</h3>
+                </div>
+                <div className="skill-card" data-aos="fade-left">
+                    <h3>Development Tools/Libraries</h3>
+                </div>
             </div>
         </div>
 

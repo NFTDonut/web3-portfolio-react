@@ -5,9 +5,8 @@ export default function Projects() {
                 <h2 data-aos="fade-left">PROJECTS</h2>
             </div>
             <div className="container-content">
-                <p data-aos="fade-right">
-                    Web3 Developer
-                </p>
+                <div className="project-card" data-aos="fade-right">
+                </div>
             </div>
         </div>
 

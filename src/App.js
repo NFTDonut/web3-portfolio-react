@@ -37,8 +37,8 @@ function App() {
       <StyledApp>
         <Navbar toggleTheme={toggleTheme}/>
         <About />
-        <Skills useEffect={useEffect}/>
-        <Projects useEffect={useEffect}/>
+        <Skills />
+        <Projects />
       </StyledApp>
     </ThemeProvider>
   );
