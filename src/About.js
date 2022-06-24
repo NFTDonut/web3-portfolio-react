@@ -7,7 +7,7 @@ export default function About() {
             <div className="container-content">
                 <div className="about-card" data-aos="fade-right">
                     <h3>NFT Donut</h3>
-                    <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna 
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                         ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -15,7 +15,7 @@ export default function About() {
                         esse cillum dolore eu fugiat nulla pariatur. Excepteur 
                         sint occaecat cupidatat non proident, sunt in culpa qui 
                         officia deserunt mollit anim id est laborum.
-                    </p2>
+                    </p>
                     <button className="gradient-button">
                         <h4>CLICK</h4>
                     </button>

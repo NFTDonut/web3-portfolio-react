@@ -81,33 +81,33 @@ h4 {
     font-weight: bold;
 }
 
-p2 {
+p {
     padding: 0px 40px 40px 40px;
 }
 
 .theme-toggle-div {
     display: flex;
     justify-content: right;
-    width: 200px;
+    min-width: 200px;
 }
 
 .theme-toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: transparent;
     border: none;
-    padding-top: 10px;
     cursor: pointer;
     transition: 0.25s;
     transform: scale(1);
-    padding-right: 20px;
-    height: 60px;
-    width: 60px;
-    line-height: 30px;
+    line-height: 0;
+
 }
 
 .theme-toggle-button:hover,
 .theme-toggle-button:focus {
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .nav {
@@ -166,6 +166,53 @@ p2 {
 } */
 
 .nav li:hover {
+    background-color: #3700B3;
+    color: white;
+}
+
+.hamburger-div {
+    display: none;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+    z-index: 1;
+}
+
+.hamburger-menu {
+    position: fixed;
+    display: none;
+    top: -100px;
+    height: 0px;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+    
+}
+
+/* .hamburger-menu.active {
+    top: 0px;
+} */
+
+.hamburger-item {
+    z-index: 1;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+    border: none;
+    display: none;
+    
+}
+
+.hamburger-theme-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-item:hover {
     background-color: #3700B3;
     color: white;
 }
@@ -277,3 +324,26 @@ svg {
     transition: 1s;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .nav li {
+        display: none;
+    }
+    .theme-toggle-div {
+        display: none;
+    }
+    .hamburger-div {
+        display: flex;
+    }
+    .hamburger-menu {
+        display: flex;
+    }
+    .hamburger-item {
+        display: block;
+    }
+
+    .hamburger-item .theme-toggle-button:hover {
+        color: white;
+    }
+
+  }

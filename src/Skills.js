@@ -13,6 +13,13 @@ export default function Skills() {
                     </button>
                 </div>
                 <div className="skill-card" data-aos="fade-left">
+                    <h3>React JS</h3>
+                    <img src={require("./images/react-logo.png")} className="card-img"></img>
+                    <button className="gradient-button">
+                        <h4>Visit Website</h4>
+                    </button>
+                </div>
+                <div className="skill-card" data-aos="fade-left">
                     <h3>Ethers.js</h3>
                     <img src={require("./images/ethers-js-logo.png")} className="ethers-js-img"></img>
                     <button className="gradient-button">
@@ -22,13 +29,6 @@ export default function Skills() {
                 <div className="skill-card" data-aos="fade-left">
                     <h3>Hardhat</h3>
                     <img src={require("./images/hardhat-logo.png")} className="card-img"></img>
-                    <button className="gradient-button">
-                        <h4>Visit Website</h4>
-                    </button>
-                </div>
-                <div className="skill-card" data-aos="fade-left">
-                    <h3>React JS</h3>
-                    <img src={require("./images/react-logo.png")} className="card-img"></img>
                     <button className="gradient-button">
                         <h4>Visit Website</h4>
                     </button>

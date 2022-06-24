@@ -10,7 +10,8 @@ export const lightTheme = {
     cardColor: '#fff',
     cardShadow: '-3px -3px 3px rgba(250, 250, 250, 0.5), 3px 3px 5px rgba(0, 0, 0, 0.1)',
     solidityImgFilter: 'invert(0%)',
-    ethersImgFilter: 'saturate(1) brightness(1)'
+    ethersImgFilter: 'saturate(1) brightness(1)',
+    hamburgerItemBg: '#6200EE'
 };
 
 export const darkTheme = {
@@ -23,7 +24,8 @@ export const darkTheme = {
     cardColor: 'rgba(255, 255, 255, 0.05)',
     cardShadow: '-3px -3px 3px rgba(255, 255, 255, 0.02), 3px 3px 5px rgba(0, 0, 0, 0.5)',
     solidityImgFilter: 'invert(100%)',
-    ethersImgFilter: 'saturate(0.8) brightness(1.8)'
+    ethersImgFilter: 'saturate(0.8) brightness(1.8)',
+    hamburgerItemBg: '#9a66f4'
 };
 
 export const GlobalStyles = createGlobalStyle`
@@ -54,6 +56,11 @@ export const GlobalStyles = createGlobalStyle`
 
     .ethers-js-img {
         filter: ${props => props.theme.ethersImgFilter};
+    }
+
+    .hamburger-item {
+        background-color: ${props => props.theme.hamburgerItemBg};
+        color: ${props => props.theme.navFontColor};
     }
 
 `
