@@ -58,6 +58,10 @@ export const GlobalStyles = createGlobalStyle`
         filter: ${props => props.theme.ethersImgFilter};
     }
 
+    .hamburger-menu {
+        background-color: ${props => props.theme.hamburgerItemBg};
+    }
+
     .hamburger-item {
         background-color: ${props => props.theme.hamburgerItemBg};
         color: ${props => props.theme.navFontColor};

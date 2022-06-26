@@ -12,13 +12,15 @@ export default function Navbar({toggleTheme}) {
         isOpen === false ? setOpen(true) : setOpen(false);
         if (isOpen === true) {
             console.log("OPEN");
-            document.getElementById("hamburger-menu").style.top = "-100px";
+            document.getElementById("hamburger-menu").style.top = "-200px";
             document.getElementById("hamburger-menu").style.display = "flex";
+            document.getElementById("hamburger-item").style.display = "block";
         }
         if (isOpen === false) {
             console.log("CLOSED");
             document.getElementById("hamburger-menu").style.top = "60px";
             document.getElementById("hamburger-menu").style.display = "flex";
+            document.getElementById("hamburger-item").style.display = "block";
         }
     }
 
@@ -70,19 +72,19 @@ export default function Navbar({toggleTheme}) {
                         </svg>
                     </div>
                 </button>
-                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={300} onClick={hamburgerToggle}>
-                    <div className='hamburger-item' style={{ padding: '8px 0px' }}>
-                        About
+                <Link activeClass="active" to="about" spy={true} smooth={true} offset={-60} duration={300}>
+                    <div className='hamburger-item' onClick={hamburgerToggle}>
+                        <p>About</p>
                     </div>
                 </Link>
-                <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-60} duration={300} onClick={hamburgerToggle}>
-                    <div className='hamburger-item' style={{ padding: '8px 0px' }}>
-                        Skills
+                <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-60} duration={300}>
+                    <div className='hamburger-item' onClick={hamburgerToggle}>
+                        <p>Skills</p>
                     </div>
                 </Link>
-                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-60} duration={300} onClick={hamburgerToggle}>
-                    <div className='hamburger-item' style={{ padding: '8px 0px' }}>
-                        Projects
+                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-60} duration={300}>
+                    <div className='hamburger-item' onClick={hamburgerToggle}>
+                        <p>Projects</p>
                     </div>
                 </Link>
             </div>

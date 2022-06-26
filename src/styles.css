@@ -130,6 +130,8 @@ p {
     width: 100%;
     top: 0;
     left: 0;
+
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .site-title {
@@ -189,14 +191,15 @@ p {
 
 .hamburger-menu {
     position: fixed;
-    display: none;
     top: -100px;
-    height: 0px;
     width: 100%;
     flex-direction: column;
     text-align: center;
     transition: 0.3s;
     z-index: 1;
+    border-radius: 0px 0px 20px 20px;
+    
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
     
 }
 
@@ -205,14 +208,19 @@ p {
 } */
 
 .hamburger-item {
-    z-index: 1;
+    z-index: 2;
     text-decoration: none;
     letter-spacing: 0.1rem;
     transition: 0.1s ease-in;
     cursor: pointer;
     border: none;
-    display: none;
-    
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.hamburger-item p {
+    margin: 0px;
+    padding: 8px;
 }
 
 .hamburger-theme-toggle {
@@ -377,9 +385,6 @@ svg {
     }
     .hamburger-menu {
         display: flex;
-    }
-    .hamburger-item {
-        display: block;
     }
 
     .hamburger-item .theme-toggle-button:hover {

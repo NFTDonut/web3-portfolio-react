@@ -26,7 +26,7 @@ export default function Projects() {
                     </button>
                 </div>
                 <div className="project-card" data-aos="fade-right">
-                    <h3>Buy Me a Donut</h3>
+                    <h3>ERC721 Minting Bot</h3>
                     <img src={require("./images/metamask-logo.png")} className="card-img"></img>
                     <h5>Skills Required:</h5>
                     <div className="project-skills-container">
@@ -46,7 +46,7 @@ export default function Projects() {
                     </button>
                 </div>
                 <div className="project-card" data-aos="fade-right">
-                    <h3>NFT Minting Bot</h3>
+                    <h3>Buy Me a Donut</h3>
                     <img src={require("./images/metamask-logo.png")} className="card-img"></img>
                     <h5>Skills Required:</h5>
                     <div className="project-skills-container">
