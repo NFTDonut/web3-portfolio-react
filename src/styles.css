@@ -81,6 +81,14 @@ h4 {
     font-weight: bold;
 }
 
+h5 {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
 p {
     padding: 0px 40px 40px 40px;
 }
@@ -129,6 +137,7 @@ p {
     width: 200px;
     font-size: 2rem;
     padding-left: 20px;
+    font-weight: normal;
 }
 
 .nav ul {
@@ -248,10 +257,10 @@ svg {
 .container-content {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     margin: auto;
     width: 80%;
+    vertical-align: top;
 }
 
 .about-card {
@@ -260,7 +269,7 @@ svg {
     min-width: 340px;
     min-height: 100px;
     margin: auto;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,8 +290,7 @@ svg {
     width: 20%;
     min-width: 340px;
     min-height: 400px;
-    margin: auto;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -291,14 +299,46 @@ svg {
 
 .project-card {
     border-radius: 20px;
-    width: 20%;
+    width: 30%;
     min-width: 340px;
     min-height: 400px;
-    margin: auto;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
+    padding: 0px 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.project-card .card-img {
+    border-radius: 20px;
+    height: 200px;
+    padding: 20px;
+    margin: 0px;
+
+}
+
+.project-card h3 {
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.project-card .gradient-button {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.project-skills-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.project-skills-container ul {
+    margin: auto;
+    font-weight: lighter;
 }
 
 .card-img {
