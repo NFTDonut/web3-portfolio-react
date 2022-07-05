@@ -43,6 +43,7 @@ body.dark {
     align-items: center;
     transition: 0.25s;
     margin-bottom: 40px;
+    
 }
 
 .gradient-button:hover {
@@ -90,7 +91,7 @@ h5 {
 }
 
 p {
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 .theme-toggle-div {
@@ -110,12 +111,12 @@ p {
     transition: 0.25s;
     transform: scale(1);
     line-height: 0;
+    padding: 0px 20px;
 
 }
 
-.theme-toggle-button:hover,
-.theme-toggle-button:focus {
-    transform: scale(1);
+.theme-toggle-button:hover {
+    transform: scale(1.1);
 }
 
 .nav {
@@ -273,15 +274,18 @@ svg {
 
 .about-card {
     border-radius: 20px;
-    width: 40%;
+    width: 100%;
+    max-width: 700px;
     min-width: 340px;
     min-height: 100px;
     margin: auto;
     margin: 0 20px 20px 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    line-height: 30px;
 }
 
 /* .about-card h3 {
@@ -315,14 +319,14 @@ svg {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .project-card .card-img {
     border-radius: 20px;
-    height: 200px;
-    padding: 20px;
-    margin: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 10px 0px;
 
 }
 
@@ -340,11 +344,11 @@ svg {
 }
 
 .project-skills-container {
-    width: 100%;
     margin-top: 10px;
 }
 
 .project-skills-container ul {
+    padding-top: 10px;
     margin: auto;
     font-weight: lighter;
 }

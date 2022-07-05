@@ -6,16 +6,17 @@ export default function Projects() {
             </div>
             <div className="container-content">
                 <div className="project-card" data-aos="fade-right">
-                    <h3>Web3 Dashboard</h3>
-                    <img src={require("./images/metamask-logo.png")} className="card-img"></img>
-                    <h5>Skills Required:</h5>
+                    <h3>ERC721 Minting Bot</h3>
+                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    
                     <div className="project-skills-container">
+                        <h5>Skills Required:</h5>
                         <ul>
-                            <li>Solidity for smart contract development</li>
-                            <li>Hardhat for testing</li>
+                            <li>Solidity for ERC721 NFT deployment</li>
+                            <li>Hardhat for contract testing</li>
                             <li>Alchemy for API connection</li>
                             <li>Ethers.js for MetaMask integration</li>
-                            <li>Next.js for front end development</li>
+                            <li>React JS for front end development</li>
                         </ul>
                     </div>
                     <button className="gradient-button">
@@ -26,16 +27,17 @@ export default function Projects() {
                     </button>
                 </div>
                 <div className="project-card" data-aos="fade-right">
-                    <h3>ERC721 Minting Bot</h3>
-                    <img src={require("./images/metamask-logo.png")} className="card-img"></img>
-                    <h5>Skills Required:</h5>
+                    <h3>Web3 Dashboard</h3>
+                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    
                     <div className="project-skills-container">
+                        <h5>Skills Required:</h5>
                         <ul>
-                            <li>Solidity for smart contract development</li>
-                            <li>Hardhat for testing</li>
-                            <li>Alchemy for API connection</li>
+                            <li>React JS for front end development</li>
                             <li>Ethers.js for MetaMask integration</li>
-                            <li>Next.js for front end development</li>
+                            <li>Alchemy for API connection</li>
+                            <li style={ {color: "transparent"}}></li>
+                            <li style={ {color: "transparent"}}></li>
                         </ul>
                     </div>
                     <button className="gradient-button">
@@ -47,9 +49,10 @@ export default function Projects() {
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Buy Me a Donut</h3>
-                    <img src={require("./images/metamask-logo.png")} className="card-img"></img>
-                    <h5>Skills Required:</h5>
+                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    
                     <div className="project-skills-container">
+                        <h5>Skills Required:</h5>
                         <ul>
                             <li>Solidity for smart contract development</li>
                             <li>Hardhat for testing</li>

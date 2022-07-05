@@ -7,17 +7,17 @@ export default function About() {
             <div className="container-content">
                 <div className="about-card" data-aos="fade-right">
                     <h3>NFT Donut</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit 
-                        esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                        sint occaecat cupidatat non proident, sunt in culpa qui 
-                        officia deserunt mollit anim id est laborum.
+                    <p>Hello, and welcome! After leaving my full time position as an electrical/software engineer in 2021, 
+                        I was sucked into the rabbit hole of Web3... I was fascinated by blockchain technology and 
+                        its massive potential! Initially, I was exploring the world of DeFi (particularly flash loans + 
+                        exchange arbitrage), but as my desire 
+                        to learn continued to grow, I ended up settling in the NFT space as an educator and project 
+                        consultant. Now that I have a deeper understanding of the Web3 space, I'm doubling down on 
+                        the software development side of things. I'm always looking to expand my network, so if you're 
+                        interested in connecting with me for any reason, feel free to reach out!
                     </p>
                     <button className="gradient-button">
-                        <h4>CLICK</h4>
+                        <h4>Connect</h4>
                     </button>
                 </div>
             </div>
