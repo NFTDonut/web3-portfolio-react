@@ -1,5 +1,5 @@
 {
-  "name": "web3-portfolio-react",
+  "name": "web3portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,13 +14,15 @@
     "react-scroll": "^1.8.7",
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4",
-    "homepage" : "https://nftdonut.github.io/web3portfolio.io"
+    "homepage" : "https://nftdonut.github.io/web3portfolio/"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
