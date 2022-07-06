@@ -209,6 +209,7 @@ p {
 } */
 
 .hamburger-item {
+    display: none;
     z-index: 2;
     text-decoration: none;
     letter-spacing: 0.1rem;
@@ -389,6 +390,9 @@ svg {
     }
     .hamburger-menu {
         display: flex;
+    }
+    .hamburger-item {
+        display: block;
     }
 
     .hamburger-item .theme-toggle-button:hover {
