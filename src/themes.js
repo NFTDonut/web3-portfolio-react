@@ -20,8 +20,6 @@ export const darkTheme = {
     navColor: '#BB86FC',
     navBg: 'linear-gradient(180deg, #b894f6, #9a66f4)',
     navFontColor: '#000',
-    navBg: 'linear-gradient(0deg, #6200EE, #3700B3)',
-    navFontColor: '#fff',
     toggleButtonText: '#000',
     cardColor: 'rgba(255, 255, 255, 0.05)',
     cardShadow: '-3px -3px 3px rgba(255, 255, 255, 0.02), 3px 3px 5px rgba(0, 0, 0, 0.5)',
