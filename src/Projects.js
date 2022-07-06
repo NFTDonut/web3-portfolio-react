@@ -7,7 +7,7 @@ export default function Projects() {
             <div className="container-content">
                 <div className="project-card" data-aos="fade-right">
                     <h3>ERC721 Minting Bot</h3>
-                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    <img src={require("./images/nft-minting-bot.PNG")} className="card-img"></img>
                     
                     <div className="project-skills-container">
                         <h5>Skills Required:</h5>
