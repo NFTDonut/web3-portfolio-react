@@ -25,7 +25,7 @@ function App() {
     if (localStorage.getItem('theme') === 'light') {
       setTheme("dark");
     }
-  })
+  }, []);
 
   useEffect(() => {
     Aos.init({ duration: 500 });
