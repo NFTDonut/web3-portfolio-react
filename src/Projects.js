@@ -7,7 +7,7 @@ export default function Projects() {
             <div className="container-content">
                 <div className="project-card" data-aos="fade-right">
                     <h3>ERC721 Minting Bot</h3>
-                    <img src={require("./images/nft-minting-bot.PNG")} className="card-img"></img>
+                    <img src={require("./images/nft-minting-bot.PNG")} alt="Bot screenshot" className="card-img"></img>
                     
                     <div className="project-skills-container">
                         <h5>Skills Required:</h5>
@@ -19,20 +19,16 @@ export default function Projects() {
                             <li>React JS for front end development</li>
                         </ul>
                     </div>
-                    <a href="https://bot.web3dev.dev/">
-                        <button className="gradient-button">
-                            <h4>Site</h4>
-                        </button>
+                    <a className="gradient-button" href="https://bot.web3dev.dev/">
+                        <h4>Site</h4>
                     </a>
-                    <a href="https://github.com/NFTDonut/nft-minting-bot">
-                        <button className="gradient-button">
-                            <h4>Code</h4>
-                        </button>
+                    <a className="gradient-button" href="https://github.com/NFTDonut/nft-minting-bot">
+                        <h4>Code</h4>
                     </a>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Web3 Dashboard</h3>
-                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    <img src={require("./images/project0.PNG")} alt="Dashboard screenshot" className="card-img"></img>
                     
                     <div className="project-skills-container">
                         <h5>Skills Required:</h5>
@@ -44,20 +40,16 @@ export default function Projects() {
                             <li style={ {color: "transparent"}}></li>
                         </ul>
                     </div>
-                    <a href="https://dash.web3dev.dev/">
-                        <button className="gradient-button">
-                            <h4>Site</h4>
-                        </button>
+                    <a className="gradient-button" href="https://dash.web3dev.dev/">
+                        <h4>Site</h4>
                     </a>
-                    <a href="https://github.com/NFTDonut/web3-dashboard">
-                        <button className="gradient-button">
-                            <h4>Code</h4>
-                        </button>
+                    <a className="gradient-button" href="https://github.com/NFTDonut/web3-dashboard">                      
+                        <h4>Code</h4>
                     </a>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Buy Me a Donut</h3>
-                    <img src={require("./images/project0.PNG")} className="card-img"></img>
+                    <img src={require("./images/project0.PNG")} alt="Project screenshot" className="card-img"></img>
                     
                     <div className="project-skills-container">
                         <h5>Skills Required:</h5>

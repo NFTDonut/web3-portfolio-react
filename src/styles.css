@@ -43,7 +43,8 @@ body.dark {
     align-items: center;
     transition: 0.25s;
     margin-bottom: 40px;
-    
+
+    text-decoration: none;
 }
 
 .gradient-button:hover {
@@ -51,7 +52,6 @@ body.dark {
 }
 
 .gradient-button::before {
-    
     background: linear-gradient(135deg, #ee008b, #ee6300);
     content: '';
     position: absolute;
