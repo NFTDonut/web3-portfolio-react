@@ -35,10 +35,12 @@ function App() {
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-        <Navbar toggleTheme={toggleTheme}/>
-        <About />
-        <Skills />
-        <Projects />
+        <body>
+          <Navbar toggleTheme={toggleTheme}/>
+          <About />
+          <Skills />
+          <Projects />
+        </body>
       </StyledApp>
     </ThemeProvider>
   );
