@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function Projects() {
     return (
         <div className="container" id="projects">
@@ -19,16 +21,16 @@ export default function Projects() {
                             <li>React JS for front end development</li>
                         </ul>
                     </div>
-                    <a to="https://bot.web3dev.dev/">
+                    <Link to="https://bot.web3dev.dev/">
                         <button className="gradient-button">
                             <h4>Site</h4>
                         </button>
-                    </a>
-                    <a to="https://github.com/NFTDonut/nft-minting-bot">
+                    </Link>
+                    <Link to="https://github.com/NFTDonut/nft-minting-bot">
                         <button className="gradient-button">
                             <h4>Code</h4>
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Web3 Dashboard</h3>
@@ -44,16 +46,16 @@ export default function Projects() {
                             <li style={ {color: "transparent"}}></li>
                         </ul>
                     </div>
-                    <a to="https://dash.web3dev.dev/">
+                    <Link to="https://dash.web3dev.dev/">
                         <button className="gradient-button">
                             <h4>Site</h4>
                         </button>
-                    </a>
-                    <a to="https://github.com/NFTDonut/web3-dashboard">
+                    </Link>
+                    <Link to="https://github.com/NFTDonut/web3-dashboard">
                         <button className="gradient-button">
                             <h4>Code</h4>
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Buy Me a Donut</h3>
