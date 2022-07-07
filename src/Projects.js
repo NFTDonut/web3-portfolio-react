@@ -1,5 +1,3 @@
-import { Link } from "react-scroll";
-
 export default function Projects() {
     return (
         <div className="container" id="projects">
@@ -21,16 +19,16 @@ export default function Projects() {
                             <li>React JS for front end development</li>
                         </ul>
                     </div>
-                    <Link to="https://bot.web3dev.dev/">
+                    <a href="https://bot.web3dev.dev/">
                         <button className="gradient-button">
                             <h4>Site</h4>
                         </button>
-                    </Link>
-                    <Link to="https://github.com/NFTDonut/nft-minting-bot">
+                    </a>
+                    <a href="https://github.com/NFTDonut/nft-minting-bot">
                         <button className="gradient-button">
                             <h4>Code</h4>
                         </button>
-                    </Link>
+                    </a>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Web3 Dashboard</h3>
@@ -46,16 +44,16 @@ export default function Projects() {
                             <li style={ {color: "transparent"}}></li>
                         </ul>
                     </div>
-                    <Link to="https://dash.web3dev.dev/">
+                    <a href="https://dash.web3dev.dev/">
                         <button className="gradient-button">
                             <h4>Site</h4>
                         </button>
-                    </Link>
-                    <Link to="https://github.com/NFTDonut/web3-dashboard">
+                    </a>
+                    <a href="https://github.com/NFTDonut/web3-dashboard">
                         <button className="gradient-button">
                             <h4>Code</h4>
                         </button>
-                    </Link>
+                    </a>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Buy Me a Donut</h3>
