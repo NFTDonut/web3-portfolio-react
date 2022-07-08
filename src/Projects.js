@@ -19,12 +19,14 @@ export default function Projects() {
                             <li>React JS for front end development</li>
                         </ul>
                     </div>
-                    <a className="gradient-button" href="https://bot.web3dev.dev/">
-                        <h4>Site</h4>
-                    </a>
-                    <a className="gradient-button" href="https://github.com/NFTDonut/nft-minting-bot">
-                        <h4>Code</h4>
-                    </a>
+                    <div className="projectBtnContainer">
+                        <a className="gradient-button" href="https://bot.web3dev.dev/">
+                            <h4>Site</h4>
+                        </a>
+                        <a className="gradient-button" href="https://github.com/NFTDonut/nft-minting-bot">
+                            <h4>Code</h4>
+                        </a>
+                    </div>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Web3 Dashboard</h3>
@@ -36,16 +38,16 @@ export default function Projects() {
                             <li>React JS for front end development</li>
                             <li>Ethers.js for MetaMask integration</li>
                             <li>Alchemy for API connection</li>
-                            <li style={ {color: "transparent"}}></li>
-                            <li style={ {color: "transparent"}}></li>
                         </ul>
                     </div>
-                    <a className="gradient-button" href="https://dash.web3dev.dev/">
-                        <h4>Site</h4>
-                    </a>
-                    <a className="gradient-button" href="https://github.com/NFTDonut/web3-dashboard">                      
-                        <h4>Code</h4>
-                    </a>
+                    <div className="projectBtnContainer">
+                        <a className="gradient-button" href="https://dash.web3dev.dev/">
+                            <h4>Site</h4>
+                        </a>
+                        <a className="gradient-button" href="https://github.com/NFTDonut/web3-dashboard">                      
+                            <h4>Code</h4>
+                        </a>
+                    </div>
                 </div>
                 <div className="project-card" data-aos="fade-right">
                     <h3>Buy Me a Donut</h3>
@@ -61,12 +63,14 @@ export default function Projects() {
                             <li>Next.js for front end development</li>
                         </ul>
                     </div>
-                    <button className="gradient-button">
-                        <h4>Site</h4>
-                    </button>
-                    <button className="gradient-button">
-                        <h4>Code</h4>
-                    </button>
+                    <div className="projectBtnContainer">
+                        <button className="gradient-button">
+                            <h4>Site</h4>
+                        </button>
+                        <button className="gradient-button">
+                            <h4>Code</h4>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
