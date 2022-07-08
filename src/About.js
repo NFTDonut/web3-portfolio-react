@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 export default function About() {
     return (
         <div className="container" id="about">
@@ -18,9 +20,9 @@ export default function About() {
                         &emsp;&emsp;I'm always looking to expand my network, so if you're 
                         interested in connecting with me for any reason, feel free to reach out!
                     </p>
-                    <button className="gradient-button">
+                    <Link className="gradient-button" activeClass="active" to="connect" spy={true} smooth={true} offset={-60} duration={1000}>
                         <h4>Connect</h4>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

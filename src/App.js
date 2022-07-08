@@ -8,6 +8,7 @@ import styled, { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js"
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import Connect from './Connect';
 
 const StyledApp = styled.div`
 `
@@ -40,6 +41,7 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Connect />
         </body>
       </StyledApp>
     </ThemeProvider>

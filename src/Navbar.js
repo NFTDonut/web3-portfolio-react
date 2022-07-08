@@ -46,6 +46,11 @@ export default function Navbar({toggleTheme}) {
                             Projects
                         </Link>
                     </li>
+                    <li>
+                        <Link activeClass="active" to="connect" spy={true} smooth={true} offset={-60} duration={300}>
+                            Connect
+                        </Link>
+                    </li>
                 </ul>
                 <div className='theme-toggle-div'>
                     <button onClick={toggleTheme} className='theme-toggle-button'>
@@ -85,6 +90,11 @@ export default function Navbar({toggleTheme}) {
                 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-60} duration={300}>
                     <div className='hamburger-item' onClick={hamburgerToggle}>
                         <p>Projects</p>
+                    </div>
+                </Link>
+                <Link activeClass="active" to="connect" spy={true} smooth={true} offset={-60} duration={300}>
+                    <div className='hamburger-item' onClick={hamburgerToggle}>
+                        <p>Connect</p>
                     </div>
                 </Link>
             </div>
