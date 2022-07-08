@@ -28,7 +28,7 @@ export default function Navbar({toggleTheme}) {
         <div>
             <nav id="nav" className="nav">
                 <Link activeClass="inactive" to="about" spy={true} smooth={true} offset={-60} duration={300} style={{ padding: 0 }}>
-                    <h5 className='site-title'>DONUT</h5>
+                    <h5 className='site-title'>PORTFOLIO</h5>
                 </Link>
                 <ul>
                     <li>
