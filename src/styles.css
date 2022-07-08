@@ -266,8 +266,6 @@ svg {
 .container {
     min-height: calc(100vh - 60px);
     margin-top: 60px;
-
-    border: 2px solid orange;
 }
 
 .container-title-left {
