@@ -149,6 +149,7 @@ p {
     font-size: 2rem;
     padding-left: 20px;
     font-weight: normal;
+    cursor: pointer;
 }
 
 .nav ul {
@@ -288,12 +289,13 @@ svg {
     margin: auto;
     width: 80%;
     vertical-align: top;
+
 }
 
 .about-card {
     border-radius: 20px;
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
     min-width: 340px;
     min-height: 100px;
     margin: auto;
@@ -342,8 +344,11 @@ svg {
     border-radius: 10px;
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding: 12px;
     margin: 20px 0px 20px 0px;
+    /* border: 8px solid rgba(0, 0, 0, 0.1); */
+    box-shadow: -2px -4px 6px rgba(255, 255, 255, 0.1), 2px 4px 6px rgba(0, 0, 0, 0.1),
+    inset -2px -4px 6px rgba(0, 0, 0, 0.1), inset 2px 4px 6px rgba(255, 255, 255, 0.1);
 
 }
 
@@ -407,6 +412,7 @@ svg {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    margin-bottom: auto;
 }
 
 .iconBackground {
