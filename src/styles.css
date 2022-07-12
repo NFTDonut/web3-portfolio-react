@@ -451,6 +451,10 @@ svg {
 }
 
 @media screen and (max-width: 768px) {
+    h2 {
+        font-size: 44px;
+    }
+
     .nav li {
         display: none;
     }
@@ -468,6 +472,17 @@ svg {
     }
     .hamburger-item .theme-toggle-button:hover {
         color: white;
+    }
+
+    .iconBackground {
+        height: 120px;
+        min-width: 120px;
+    }
+
+    .connectIcons {
+        background-color: transparent;
+        height: 90px;
+        min-width: 90px;
     }
 
   }
