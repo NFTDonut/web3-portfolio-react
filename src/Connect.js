@@ -10,16 +10,16 @@ export default function Connect() {
                 </div>
                 <IconContext.Provider value={{ className: "connectIcons" }}>
                     <div className="iconContainer" data-aos="fade-left">
-                        <a href="https://twitter.com/_NFTDonut" className="iconBackground">
+                        <a href="https://twitter.com/TheCalebRider" className="iconBackground">
                             <AiFillTwitterCircle color="#1da1f2"/>
                         </a>
-                        <a href="https://www.youtube.com/c/NFTDonut" className="iconBackground">
+                        <a href="https://www.youtube.com/channel/UCIBNMyTqHovTeEFFZP3sUaQ" className="iconBackground">
                             <FaYoutube color="ff0000"/>
                         </a>
-                        <a href="https://github.com/NFTDonut" className="iconBackground">
+                        <a href="https://github.com/calebrider" className="iconBackground">
                             <AiFillGithub color="#171515"/>
                         </a>
-                        <a href="mailto: donutclubnft@gmail.com" className="iconBackground">
+                        <a href="mailto: calebrider.dev@gmail.com" className="iconBackground">
                             <AiFillMail color="#22BC22"/>
                         </a>
                     </div>

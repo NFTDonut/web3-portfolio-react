@@ -8,7 +8,7 @@ export default function About() {
             </div>
             <div className="container-content">
                 <div className="about-card" data-aos="fade-right">
-                    <h3>NFT Donut</h3>
+                    <h3>Caleb Rider</h3>
                     <p>&emsp;&emsp;Hello, and welcome! After leaving my full time position as an electrical/software engineer in 2021, 
                         I was sucked into the rabbit hole of Web3... I was fascinated by blockchain technology and 
                         its massive potential! Initially, I explored the world of DeFi (particularly flash loans + 
